@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    background2-color: #000;
+    background6-color: #000;
 }
 
 header {
-    background2-color: #111;
+    background6-color: #111;
     padding: 1em 0;
     text-align: center;
     position: sticky;
@@ -43,9 +43,9 @@ nav ul li a {
 }
 
 .section.bg-image {
-    background2-size: cover; /* Cover the entire section */
-    background2-position: center; /* Center the image */
-    background2-repeat: no-repeat; /* Prevent repeating */
+    background6-size: cover; /* Cover the entire section */
+    background6-position: center; /* Center the image */
+    background6-repeat: no-repeat; /* Prevent repeating */
     height: 100vh; /* Optional: full height */
 }
 
@@ -66,7 +66,7 @@ nav ul li a {
 }
 
 footer {
-    background2-color: #111;
+    background6-color: #111;
     text-align: center;
     padding: 1em 0;
     position: sticky;
