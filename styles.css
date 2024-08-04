@@ -42,10 +42,11 @@ nav ul li a {
     text-align: center;
 }
 
-.bg-image {
-    background-size: cover;
-    background-position: center;
-    color: #fff;
+.section.bg-image {
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh; /* Optional: full height */
 }
 
 .bg-dark {
