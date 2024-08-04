@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    background7-color: #000;
+    background-color: #000;
 }
 
 header {
-    background7-color: #111;
+    background-color: #111;
     padding: 1em 0;
     text-align: center;
     position: sticky;
@@ -43,14 +43,15 @@ nav ul li a {
 }
 
 .section.bg-image {
-    background7-size: cover; /* Cover the entire section */
-    background7-position: center; /* Center the image */
-    background7-repeat: no-repeat; /* Prevent repeating */
+    background-image: url('images/background7.jpg'); /* Correct the background image path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
     height: 100vh; /* Optional: full height */
 }
 
 .bg-dark {
-    background7-color: #222;
+    background-color: #222;
 }
 
 .project-links {
@@ -66,7 +67,7 @@ nav ul li a {
 }
 
 footer {
-    background7-color: #111;
+    background-color: #111;
     text-align: center;
     padding: 1em 0;
     position: sticky;
