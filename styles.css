@@ -10,48 +10,59 @@ header {
     background-color: #111;
     padding: 1em 0;
     text-align: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
-.header-content h1 {
+.header-content h1,
+.header-content h2 {
     margin: 0;
     font-size: 2em;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+header h2 {
+    font-size: 1.5em;
+}
+
+main {
+    margin-top: 100px; /* Adjust this value to your header height */
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.section-container {
     display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 1em;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2em;
+    gap: 1em;
 }
 
 .section {
-    padding: 4em 2em;
+    flex: 1;
+    padding: 2em;
+    background-color: #222;
+    border-radius: 8px;
     text-align: center;
 }
 
 .section.bg-image {
-    background-image: url('images/background7.jpg'); /* Correct the background image path */
-    background-size: cover; /* Cover the entire section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating */
+    background-image: url('images/background7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh; /* Optional: full height */
-}
-
-.bg-dark {
-    background-color: #222;
+    color: #fff;
 }
 
 .project-links {
@@ -66,11 +77,6 @@ nav ul li a {
     border-radius: 8px;
 }
 
-footer {
-    background-color: #111;
-    text-align: center;
-    padding: 1em 0;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
+.bg-dark {
+    background-color: #222;
 }
