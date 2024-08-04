@@ -64,9 +64,9 @@ footer {
 }
 
 .section-content {
-    background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
     padding: 1em;
     border-radius: 8px;
+    color: #fff;
 }
 
 .project-links {
