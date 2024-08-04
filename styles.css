@@ -46,12 +46,15 @@ footer {
     align-items: flex-start;
     padding: 2em;
     gap: 1em;
+    background-image: url('images/your-background-image.jpg'); /* Your custom background image */
+    background-size: cover;
+    background-position: center;
 }
 
 .section {
     flex: 1;
     padding: 2em;
-    background-color: #222;
+    background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
     border-radius: 8px;
     text-align: center;
     max-width: 300px;
@@ -78,4 +81,7 @@ footer {
 
 .bg-dark {
     background-color: #222;
+    text-align: center;
+    padding: 2em;
+    margin: 0 auto;
 }
