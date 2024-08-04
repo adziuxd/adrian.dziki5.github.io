@@ -107,11 +107,14 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
 }
-.profile-photo {
-    width: 150px; /* Adjust as needed */
-    height: auto;
-    border-radius: 50%; /* Makes the image circular */
-    display: block;
-    margin: 20px auto; /* Center the image */
+.about-content {
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
 }
 
+.profile-photo {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Make the photo square */
+    border-radius: 8px; /* Rounded corners */
+    margin-right: 20px; /* Space between the photo and the text */
+}
