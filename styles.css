@@ -48,7 +48,6 @@ footer {
     align-items: flex-start;
     padding: 2em;
     gap: 1em;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
 }
 
 .section {
@@ -62,7 +61,6 @@ footer {
     max-width: 300px;
     min-height: 200px;
     color: #fff;
-    margin-bottom: 1em;
 }
 
 .section-content {
