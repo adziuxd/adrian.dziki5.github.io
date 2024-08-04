@@ -8,32 +8,46 @@
 </head>
 <body>
     <header>
-        <h1>Adrian Dziki</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#activities">Activities</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <h1>Adrian Dziki</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Here you can add information about yourself, your background, and your career.</p>
+        <section id="about" class="section bg-image" style="background-image: url('your-background-image.jpg');">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <p>Here you can add information about yourself, your background, and your career.</p>
+            </div>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>List and describe your past projects here.</p>
+        <section id="projects" class="section">
+            <div class="section-content">
+                <h2>Projects</h2>
+                <div class="project-links">
+                    <a href="link-to-project1.html"><img src="your-link-image1.jpg" alt="Project 1"></a>
+                    <a href="link-to-project2.html"><img src="your-link-image2.jpg" alt="Project 2"></a>
+                </div>
+                <p>List and describe your past projects here.</p>
+            </div>
         </section>
-        <section id="activities">
-            <h2>Current Activities</h2>
-            <p>Detail your current activities, such as work, hobbies, and interests.</p>
+        <section id="activities" class="section">
+            <div class="section-content">
+                <h2>Current Activities</h2>
+                <p>Detail your current activities, such as work, hobbies, and interests.</p>
+            </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Provide contact information or a contact form here.</p>
+        <section id="contact" class="section bg-dark">
+            <div class="section-content">
+                <h2>Contact</h2>
+                <p>Provide contact information or a contact form here.</p>
+            </div>
         </section>
     </main>
     <footer>
