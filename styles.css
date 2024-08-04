@@ -113,8 +113,8 @@ footer {
 }
 
 .profile-photo {
-    width: 1152px; /* Adjust the size as needed */
-    height: 2048px; /* Make the photo square */
+    width: 576px; /* Adjust the size as needed */
+    height: 1024px; /* Make the photo square */
     border-radius: 8px; /* Rounded corners */
     margin-right: 20px; /* Space between the photo and the text */
 }
