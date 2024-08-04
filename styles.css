@@ -28,6 +28,7 @@ header h2 {
 
 main {
     margin-top: 100px; /* Adjust this value to your header height */
+    padding-bottom: 100px; /* Add padding to avoid overlap with fixed footer */
 }
 
 footer {
@@ -42,29 +43,32 @@ footer {
 
 .section-container {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: flex-start;
     padding: 2em;
     gap: 1em;
-    background-image: url('images/your-background-image.jpg'); /* Your custom background image */
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
 }
 
 .section {
-    flex: 1;
+    flex: 1 1 30%;
     padding: 2em;
-    background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
-    border-radius: 8px;
-    text-align: center;
-    max-width: 300px;
-}
-
-.bg-image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* Optional: full height */
+    border-radius: 8px;
+    text-align: center;
+    max-width: 300px;
+    min-height: 200px;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.section-content {
+    background-color: rgba(34, 34, 34, 0.8); /* Semi-transparent background */
+    padding: 1em;
+    border-radius: 8px;
 }
 
 .project-links {
@@ -84,4 +88,5 @@ footer {
     text-align: center;
     padding: 2em;
     margin: 0 auto;
+    max-width: 300px;
 }
