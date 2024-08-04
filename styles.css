@@ -46,7 +46,7 @@ nav ul li a {
     background7-size: cover; /* Cover the entire section */
     background7-position: center; /* Center the image */
     background7-repeat: no-repeat; /* Prevent repeating */
-    height: 100vh; /* Optional: full height */
+    height: 80vh; /* Optional: full height */
 }
 
 .bg-dark {
